@@ -1,4 +1,4 @@
-"""Biohart: Goodhart-style adversarial probes for biomedical-QA LLM judges.
+"""biohart: adversarial probes for biomedical-QA LLM judges.
 
 Tests whether LLM verifiers used in healthcare-RL training pipelines
 hallucinate verdict changes on semantically-clean mutations of the

@@ -70,7 +70,7 @@ def main() -> None:
         # Skip very long or empty answers.
         if not (4 <= len(answer) <= 400):
             continue
-        # Numeric / short answers preferred — biases us towards factoid items
+        # Numeric / short answers preferred, biases us towards factoid items
         # which is exactly what numeric_swap and single_word_negation_drop
         # target.
         task = QATask(

@@ -15,16 +15,12 @@ import time
 from collections import defaultdict
 from pathlib import Path
 
-# Load credentials from a sibling project's .env if present (dev convenience).
+# Load credentials from a local .env if present (optional convenience).
 try:
     from dotenv import load_dotenv as _ld
-    for _candidate in (
-        Path.cwd() / ".env",
-        Path("/Users/sk/Code/Tinkering/Vbops/vibeops-mcp/.env"),
-    ):
-        if _candidate.exists() and not os.getenv("ANTHROPIC_API_KEY"):
-            _ld(_candidate)
-            break
+    _candidate = Path.cwd() / ".env"
+    if _candidate.exists():
+        _ld(_candidate)
 except Exception:
     pass
 
@@ -103,7 +99,7 @@ async def run_all(provider: str, model: str, tasks: list[QATask], concurrency: i
     # because single_word_negation_drop / numeric_swap silently fall back to
     # no-op variants when the source answer lacks a negation token / numeric
     # value. A no-op variant has expected_judge_flip=False AND identical
-    # text — not informative for hack-rate.
+    # text, not informative for hack-rate.
     per_family: dict[str, dict[str, int]] = defaultdict(
         lambda: {"total": 0, "applicable": 0, "flipped": 0,
                  "applicable_flipped": 0, "matches_expectation": 0}

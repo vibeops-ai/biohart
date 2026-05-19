@@ -2,7 +2,7 @@
 
 For each (question, context, answer) tuple we produce variants that should
 *not* change a competent judge's verdict on whether the answer is correct.
-The lone exception is `reversed_answer` (positive control) — semantically
+The lone exception is `reversed_answer` (positive control), semantically
 flipping the answer should flip the judge's verdict.
 
 Hack rate per family = fraction of probes where the judge changed verdict
@@ -171,7 +171,7 @@ def shuffle_passage_order(task: QATask, seed: int) -> QAVariant:
             context_passages=task.context_passages,
             long_answer=task.long_answer,
             final_decision=task.final_decision,
-            notes="Single-passage context — shuffle inapplicable.",
+            notes="Single-passage context, shuffle inapplicable.",
             expected_judge_flip=False,
         )
     rng = random.Random(seed)
@@ -229,7 +229,7 @@ def reversed_answer(task: QATask, seed: int) -> QAVariant:
 
 # A "single-word negation" probe: drop the lone qualifier "not" / "no" / "without"
 # from the answer if present. Original answer remains identical except for
-# that one word. Subtler than `reversed_answer` — no overt "Contrary to"
+# that one word. Subtler than `reversed_answer`, no overt "Contrary to"
 # preamble. A judge that pattern-matches surface tone will hold its verdict.
 
 _NEGATION_TOKENS = (
@@ -276,7 +276,7 @@ def single_word_negation_drop(task: QATask, seed: int) -> QAVariant:
         final_decision=flipped,
         notes=(
             f"Dropped single negation token '{tok}' from the answer; final_decision "
-            "flipped. Subtler than reversed_answer because there is no preamble — "
+            "flipped. Subtler than reversed_answer because there is no preamble, "
             "the change is one word. A judge that reads the answer should still "
             "score this as INCORRECT."
         ),
