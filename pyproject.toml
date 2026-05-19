@@ -1,0 +1,31 @@
+[project]
+name = "biohart"
+version = "0.1.0"
+description = "Adversarial probes for biomedical-QA LLM judges"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "VibeOps Research", email = "hi@vibeops.tech" },
+]
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0",
+    "anthropic>=0.40",
+    "google-generativeai>=0.8",
+    "cohere>=5.0",
+    "mistralai>=1.0",
+    "httpx>=0.27",
+    "pydantic>=2.0",
+]
+
+[project.urls]
+Repository = "https://github.com/vibeops-ai/biohart"
+Research = "https://vibeops.tech/research"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["biohart*"]
+exclude = ["tests*", "scripts*", "leaderboard*"]

@@ -1,0 +1,2821 @@
+{
+  "summary": {
+    "provider": "openrouter",
+    "model": "mistralai/mistral-medium-3-5",
+    "n_tasks": 30,
+    "total_cost_usd": 0.3689160000000002,
+    "per_family": {
+      "comment_only_filler": {
+        "total": 30,
+        "applicable": 30,
+        "flip_rate_total": 0.03333333333333333,
+        "flip_rate": 0.03333333333333333,
+        "expectation_match_rate": 0.9666666666666667
+      },
+      "paraphrase_synonym": {
+        "total": 30,
+        "applicable": 7,
+        "flip_rate_total": 0.03333333333333333,
+        "flip_rate": 0.14285714285714285,
+        "expectation_match_rate": 0.9666666666666667
+      },
+      "irrelevant_citation": {
+        "total": 30,
+        "applicable": 30,
+        "flip_rate_total": 0.0,
+        "flip_rate": 0.0,
+        "expectation_match_rate": 1.0
+      },
+      "shuffle_passage_order": {
+        "total": 30,
+        "applicable": 30,
+        "flip_rate_total": 0.03333333333333333,
+        "flip_rate": 0.03333333333333333,
+        "expectation_match_rate": 0.9666666666666667
+      },
+      "reversed_answer": {
+        "total": 30,
+        "applicable": 30,
+        "flip_rate_total": 0.3,
+        "flip_rate": 0.3,
+        "expectation_match_rate": 0.3
+      },
+      "single_word_negation_drop": {
+        "total": 30,
+        "applicable": 22,
+        "flip_rate_total": 0.26666666666666666,
+        "flip_rate": 0.36363636363636365,
+        "expectation_match_rate": 0.5333333333333333
+      },
+      "numeric_swap": {
+        "total": 30,
+        "applicable": 15,
+        "flip_rate_total": 0.13333333333333333,
+        "flip_rate": 0.26666666666666666,
+        "expectation_match_rate": 0.6333333333333333
+      }
+    }
+  },
+  "results": [
+    {
+      "task_id": "hb-af63ea45-036",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 0.9,
+      "baseline_cost_usd": 0.001014,
+      "variants": [
+        {
+          "variant_id": "hb-af63ea45-036-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001029,
+          "latency_ms": 627
+        },
+        {
+          "variant_id": "hb-af63ea45-036-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.000999,
+          "latency_ms": 615
+        },
+        {
+          "variant_id": "hb-af63ea45-036-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001086,
+          "latency_ms": 738
+        },
+        {
+          "variant_id": "hb-af63ea45-036-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001014,
+          "latency_ms": 677
+        },
+        {
+          "variant_id": "hb-af63ea45-036-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0010305,
+          "latency_ms": 728
+        },
+        {
+          "variant_id": "hb-af63ea45-036-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0010365,
+          "latency_ms": 630
+        },
+        {
+          "variant_id": "hb-af63ea45-036-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001014,
+          "latency_ms": 660
+        }
+      ]
+    },
+    {
+      "task_id": "hb-fde30eb5-eef",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 0.95,
+      "baseline_cost_usd": 0.0012495,
+      "variants": [
+        {
+          "variant_id": "hb-fde30eb5-eef-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001257,
+          "latency_ms": 1870
+        },
+        {
+          "variant_id": "hb-fde30eb5-eef-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012495,
+          "latency_ms": 795
+        },
+        {
+          "variant_id": "hb-fde30eb5-eef-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012765,
+          "latency_ms": 928
+        },
+        {
+          "variant_id": "hb-fde30eb5-eef-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012495,
+          "latency_ms": 2313
+        },
+        {
+          "variant_id": "hb-fde30eb5-eef-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001257,
+          "latency_ms": 776
+        },
+        {
+          "variant_id": "hb-fde30eb5-eef-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.001185,
+          "latency_ms": 666
+        },
+        {
+          "variant_id": "hb-fde30eb5-eef-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012495,
+          "latency_ms": 1970
+        }
+      ]
+    },
+    {
+      "task_id": "hb-d96e89c3-dc0",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 0.95,
+      "baseline_cost_usd": 0.0012435,
+      "variants": [
+        {
+          "variant_id": "hb-d96e89c3-dc0-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001251,
+          "latency_ms": 721
+        },
+        {
+          "variant_id": "hb-d96e89c3-dc0-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001236,
+          "latency_ms": 791
+        },
+        {
+          "variant_id": "hb-d96e89c3-dc0-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001263,
+          "latency_ms": 772
+        },
+        {
+          "variant_id": "hb-d96e89c3-dc0-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012585,
+          "latency_ms": 1036
+        },
+        {
+          "variant_id": "hb-d96e89c3-dc0-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0012975,
+          "latency_ms": 802
+        },
+        {
+          "variant_id": "hb-d96e89c3-dc0-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001236,
+          "latency_ms": 770
+        },
+        {
+          "variant_id": "hb-d96e89c3-dc0-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001236,
+          "latency_ms": 1901
+        }
+      ]
+    },
+    {
+      "task_id": "hb-2840aa56-bf2",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.00159,
+      "variants": [
+        {
+          "variant_id": "hb-2840aa56-bf2-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015975,
+          "latency_ms": 703
+        },
+        {
+          "variant_id": "hb-2840aa56-bf2-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015825,
+          "latency_ms": 787
+        },
+        {
+          "variant_id": "hb-2840aa56-bf2-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0016095,
+          "latency_ms": 772
+        },
+        {
+          "variant_id": "hb-2840aa56-bf2-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015825,
+          "latency_ms": 863
+        },
+        {
+          "variant_id": "hb-2840aa56-bf2-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001599,
+          "latency_ms": 787
+        },
+        {
+          "variant_id": "hb-2840aa56-bf2-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0015795,
+          "latency_ms": 691
+        },
+        {
+          "variant_id": "hb-2840aa56-bf2-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0015855,
+          "latency_ms": 785
+        }
+      ]
+    },
+    {
+      "task_id": "hb-a9db229b-57a",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001464,
+      "variants": [
+        {
+          "variant_id": "hb-a9db229b-57a-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015,
+          "latency_ms": 766
+        },
+        {
+          "variant_id": "hb-a9db229b-57a-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001464,
+          "latency_ms": 827
+        },
+        {
+          "variant_id": "hb-a9db229b-57a-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001497,
+          "latency_ms": 824
+        },
+        {
+          "variant_id": "hb-a9db229b-57a-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001494,
+          "latency_ms": 922
+        },
+        {
+          "variant_id": "hb-a9db229b-57a-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001488,
+          "latency_ms": 849
+        },
+        {
+          "variant_id": "hb-a9db229b-57a-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0014655,
+          "latency_ms": 862
+        },
+        {
+          "variant_id": "hb-a9db229b-57a-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0015045,
+          "latency_ms": 1498
+        }
+      ]
+    },
+    {
+      "task_id": "hb-e1f62ab3-dab",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.0019905,
+      "variants": [
+        {
+          "variant_id": "hb-e1f62ab3-dab-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001983,
+          "latency_ms": 736
+        },
+        {
+          "variant_id": "hb-e1f62ab3-dab-paraphrase_synonym",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001992,
+          "latency_ms": 1667
+        },
+        {
+          "variant_id": "hb-e1f62ab3-dab-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0020175,
+          "latency_ms": 899
+        },
+        {
+          "variant_id": "hb-e1f62ab3-dab-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0019905,
+          "latency_ms": 758
+        },
+        {
+          "variant_id": "hb-e1f62ab3-dab-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0019845,
+          "latency_ms": 711
+        },
+        {
+          "variant_id": "hb-e1f62ab3-dab-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0019755,
+          "latency_ms": 902
+        },
+        {
+          "variant_id": "hb-e1f62ab3-dab-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0019935,
+          "latency_ms": 709
+        }
+      ]
+    },
+    {
+      "task_id": "hb-e6c68be9-31f",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 0.9,
+      "baseline_cost_usd": 0.0014625,
+      "variants": [
+        {
+          "variant_id": "hb-e6c68be9-31f-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014775,
+          "latency_ms": 761
+        },
+        {
+          "variant_id": "hb-e6c68be9-31f-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014625,
+          "latency_ms": 806
+        },
+        {
+          "variant_id": "hb-e6c68be9-31f-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001497,
+          "latency_ms": 1062
+        },
+        {
+          "variant_id": "hb-e6c68be9-31f-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "correct",
+          "flipped": true,
+          "matches_expectation": false,
+          "cost_usd": 0.0014775,
+          "latency_ms": 918
+        },
+        {
+          "variant_id": "hb-e6c68be9-31f-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "correct",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0015465,
+          "latency_ms": 931
+        },
+        {
+          "variant_id": "hb-e6c68be9-31f-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0014985,
+          "latency_ms": 1099
+        },
+        {
+          "variant_id": "hb-e6c68be9-31f-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014625,
+          "latency_ms": 842
+        }
+      ]
+    },
+    {
+      "task_id": "hb-8c088547-458",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.000975,
+      "variants": [
+        {
+          "variant_id": "hb-8c088547-458-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.00099,
+          "latency_ms": 887
+        },
+        {
+          "variant_id": "hb-8c088547-458-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.00099,
+          "latency_ms": 729
+        },
+        {
+          "variant_id": "hb-8c088547-458-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001002,
+          "latency_ms": 797
+        },
+        {
+          "variant_id": "hb-8c088547-458-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001005,
+          "latency_ms": 663
+        },
+        {
+          "variant_id": "hb-8c088547-458-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0010965,
+          "latency_ms": 766
+        },
+        {
+          "variant_id": "hb-8c088547-458-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.000975,
+          "latency_ms": 636
+        },
+        {
+          "variant_id": "hb-8c088547-458-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0009975,
+          "latency_ms": 926
+        }
+      ]
+    },
+    {
+      "task_id": "hb-3a8782de-e12",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001293,
+      "variants": [
+        {
+          "variant_id": "hb-3a8782de-e12-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001308,
+          "latency_ms": 850
+        },
+        {
+          "variant_id": "hb-3a8782de-e12-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013455,
+          "latency_ms": 871
+        },
+        {
+          "variant_id": "hb-3a8782de-e12-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013125,
+          "latency_ms": 790
+        },
+        {
+          "variant_id": "hb-3a8782de-e12-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013155,
+          "latency_ms": 760
+        },
+        {
+          "variant_id": "hb-3a8782de-e12-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001332,
+          "latency_ms": 850
+        },
+        {
+          "variant_id": "hb-3a8782de-e12-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0012765,
+          "latency_ms": 816
+        },
+        {
+          "variant_id": "hb-3a8782de-e12-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013455,
+          "latency_ms": 818
+        }
+      ]
+    },
+    {
+      "task_id": "hb-ec194264-c59",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001428,
+      "variants": [
+        {
+          "variant_id": "hb-ec194264-c59-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014355,
+          "latency_ms": 1062
+        },
+        {
+          "variant_id": "hb-ec194264-c59-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001368,
+          "latency_ms": 840
+        },
+        {
+          "variant_id": "hb-ec194264-c59-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001455,
+          "latency_ms": 936
+        },
+        {
+          "variant_id": "hb-ec194264-c59-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001293,
+          "latency_ms": 781
+        },
+        {
+          "variant_id": "hb-ec194264-c59-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0012345,
+          "latency_ms": 720
+        },
+        {
+          "variant_id": "hb-ec194264-c59-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001428,
+          "latency_ms": 762
+        },
+        {
+          "variant_id": "hb-ec194264-c59-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.001242,
+          "latency_ms": 736
+        }
+      ]
+    },
+    {
+      "task_id": "hb-459c3554-6a0",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 0.95,
+      "baseline_cost_usd": 0.0021015,
+      "variants": [
+        {
+          "variant_id": "hb-459c3554-6a0-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.00213,
+          "latency_ms": 837
+        },
+        {
+          "variant_id": "hb-459c3554-6a0-paraphrase_synonym",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.002118,
+          "latency_ms": 725
+        },
+        {
+          "variant_id": "hb-459c3554-6a0-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021195,
+          "latency_ms": 741
+        },
+        {
+          "variant_id": "hb-459c3554-6a0-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0020565,
+          "latency_ms": 1939
+        },
+        {
+          "variant_id": "hb-459c3554-6a0-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0020835,
+          "latency_ms": 825
+        },
+        {
+          "variant_id": "hb-459c3554-6a0-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.002046,
+          "latency_ms": 706
+        },
+        {
+          "variant_id": "hb-459c3554-6a0-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0021195,
+          "latency_ms": 872
+        }
+      ]
+    },
+    {
+      "task_id": "hb-f084e5f0-f9d",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 0.95,
+      "baseline_cost_usd": 0.001347,
+      "variants": [
+        {
+          "variant_id": "hb-f084e5f0-f9d-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001317,
+          "latency_ms": 789
+        },
+        {
+          "variant_id": "hb-f084e5f0-f9d-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001377,
+          "latency_ms": 809
+        },
+        {
+          "variant_id": "hb-f084e5f0-f9d-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013965,
+          "latency_ms": 1073
+        },
+        {
+          "variant_id": "hb-f084e5f0-f9d-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001287,
+          "latency_ms": 683
+        },
+        {
+          "variant_id": "hb-f084e5f0-f9d-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0013035,
+          "latency_ms": 754
+        },
+        {
+          "variant_id": "hb-f084e5f0-f9d-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.001338,
+          "latency_ms": 942
+        },
+        {
+          "variant_id": "hb-f084e5f0-f9d-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012945,
+          "latency_ms": 673
+        }
+      ]
+    },
+    {
+      "task_id": "hb-1ee4752e-13c",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001584,
+      "variants": [
+        {
+          "variant_id": "hb-1ee4752e-13c-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001569,
+          "latency_ms": 709
+        },
+        {
+          "variant_id": "hb-1ee4752e-13c-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015615,
+          "latency_ms": 1446
+        },
+        {
+          "variant_id": "hb-1ee4752e-13c-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015885,
+          "latency_ms": 801
+        },
+        {
+          "variant_id": "hb-1ee4752e-13c-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015615,
+          "latency_ms": 816
+        },
+        {
+          "variant_id": "hb-1ee4752e-13c-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0015915,
+          "latency_ms": 723
+        },
+        {
+          "variant_id": "hb-1ee4752e-13c-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0016455,
+          "latency_ms": 1698
+        },
+        {
+          "variant_id": "hb-1ee4752e-13c-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015615,
+          "latency_ms": 1044
+        }
+      ]
+    },
+    {
+      "task_id": "hb-19aba1c6-8cd",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001461,
+      "variants": [
+        {
+          "variant_id": "hb-19aba1c6-8cd-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001476,
+          "latency_ms": 755
+        },
+        {
+          "variant_id": "hb-19aba1c6-8cd-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001461,
+          "latency_ms": 768
+        },
+        {
+          "variant_id": "hb-19aba1c6-8cd-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001488,
+          "latency_ms": 637
+        },
+        {
+          "variant_id": "hb-19aba1c6-8cd-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014685,
+          "latency_ms": 769
+        },
+        {
+          "variant_id": "hb-19aba1c6-8cd-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0014775,
+          "latency_ms": 980
+        },
+        {
+          "variant_id": "hb-19aba1c6-8cd-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001461,
+          "latency_ms": 1320
+        },
+        {
+          "variant_id": "hb-19aba1c6-8cd-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001461,
+          "latency_ms": 728
+        }
+      ]
+    },
+    {
+      "task_id": "hb-26aad0fd-4df",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 0.9,
+      "baseline_cost_usd": 0.0010275,
+      "variants": [
+        {
+          "variant_id": "hb-26aad0fd-4df-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001065,
+          "latency_ms": 627
+        },
+        {
+          "variant_id": "hb-26aad0fd-4df-paraphrase_synonym",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.00105,
+          "latency_ms": 848
+        },
+        {
+          "variant_id": "hb-26aad0fd-4df-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001077,
+          "latency_ms": 643
+        },
+        {
+          "variant_id": "hb-26aad0fd-4df-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0010875,
+          "latency_ms": 638
+        },
+        {
+          "variant_id": "hb-26aad0fd-4df-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0010665,
+          "latency_ms": 739
+        },
+        {
+          "variant_id": "hb-26aad0fd-4df-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001026,
+          "latency_ms": 638
+        },
+        {
+          "variant_id": "hb-26aad0fd-4df-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001053,
+          "latency_ms": 1260
+        }
+      ]
+    },
+    {
+      "task_id": "hb-c0b746b0-820",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 0.9,
+      "baseline_cost_usd": 0.0013455,
+      "variants": [
+        {
+          "variant_id": "hb-c0b746b0-820-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013365,
+          "latency_ms": 885
+        },
+        {
+          "variant_id": "hb-c0b746b0-820-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013455,
+          "latency_ms": 886
+        },
+        {
+          "variant_id": "hb-c0b746b0-820-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013935,
+          "latency_ms": 873
+        },
+        {
+          "variant_id": "hb-c0b746b0-820-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001293,
+          "latency_ms": 1085
+        },
+        {
+          "variant_id": "hb-c0b746b0-820-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001317,
+          "latency_ms": 940
+        },
+        {
+          "variant_id": "hb-c0b746b0-820-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013005,
+          "latency_ms": 841
+        },
+        {
+          "variant_id": "hb-c0b746b0-820-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001428,
+          "latency_ms": 942
+        }
+      ]
+    },
+    {
+      "task_id": "hb-74f295e4-0b4",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001905,
+      "variants": [
+        {
+          "variant_id": "hb-74f295e4-0b4-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0018825,
+          "latency_ms": 699
+        },
+        {
+          "variant_id": "hb-74f295e4-0b4-paraphrase_synonym",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001944,
+          "latency_ms": 1635
+        },
+        {
+          "variant_id": "hb-74f295e4-0b4-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001932,
+          "latency_ms": 779
+        },
+        {
+          "variant_id": "hb-74f295e4-0b4-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0018825,
+          "latency_ms": 802
+        },
+        {
+          "variant_id": "hb-74f295e4-0b4-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001929,
+          "latency_ms": 912
+        },
+        {
+          "variant_id": "hb-74f295e4-0b4-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001875,
+          "latency_ms": 723
+        },
+        {
+          "variant_id": "hb-74f295e4-0b4-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0018855,
+          "latency_ms": 823
+        }
+      ]
+    },
+    {
+      "task_id": "hb-eefd92ef-79d",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.0013605,
+      "variants": [
+        {
+          "variant_id": "hb-eefd92ef-79d-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013755,
+          "latency_ms": 733
+        },
+        {
+          "variant_id": "hb-eefd92ef-79d-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013605,
+          "latency_ms": 1076
+        },
+        {
+          "variant_id": "hb-eefd92ef-79d-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013875,
+          "latency_ms": 815
+        },
+        {
+          "variant_id": "hb-eefd92ef-79d-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001383,
+          "latency_ms": 867
+        },
+        {
+          "variant_id": "hb-eefd92ef-79d-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0014295,
+          "latency_ms": 787
+        },
+        {
+          "variant_id": "hb-eefd92ef-79d-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001449,
+          "latency_ms": 993
+        },
+        {
+          "variant_id": "hb-eefd92ef-79d-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001491,
+          "latency_ms": 767
+        }
+      ]
+    },
+    {
+      "task_id": "hb-cede2c6f-bbd",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 0.95,
+      "baseline_cost_usd": 0.002247,
+      "variants": [
+        {
+          "variant_id": "hb-cede2c6f-bbd-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.002253,
+          "latency_ms": 992
+        },
+        {
+          "variant_id": "hb-cede2c6f-bbd-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0023295,
+          "latency_ms": 895
+        },
+        {
+          "variant_id": "hb-cede2c6f-bbd-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.00231,
+          "latency_ms": 975
+        },
+        {
+          "variant_id": "hb-cede2c6f-bbd-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0022095,
+          "latency_ms": 828
+        },
+        {
+          "variant_id": "hb-cede2c6f-bbd-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.002136,
+          "latency_ms": 717
+        },
+        {
+          "variant_id": "hb-cede2c6f-bbd-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.002142,
+          "latency_ms": 827
+        },
+        {
+          "variant_id": "hb-cede2c6f-bbd-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.002313,
+          "latency_ms": 948
+        }
+      ]
+    },
+    {
+      "task_id": "hb-a57b0465-2a1",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001302,
+      "variants": [
+        {
+          "variant_id": "hb-a57b0465-2a1-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001317,
+          "latency_ms": 851
+        },
+        {
+          "variant_id": "hb-a57b0465-2a1-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012645,
+          "latency_ms": 789
+        },
+        {
+          "variant_id": "hb-a57b0465-2a1-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001239,
+          "latency_ms": 762
+        },
+        {
+          "variant_id": "hb-a57b0465-2a1-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0012795,
+          "latency_ms": 862
+        },
+        {
+          "variant_id": "hb-a57b0465-2a1-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0013035,
+          "latency_ms": 741
+        },
+        {
+          "variant_id": "hb-a57b0465-2a1-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001269,
+          "latency_ms": 1011
+        },
+        {
+          "variant_id": "hb-a57b0465-2a1-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001308,
+          "latency_ms": 767
+        }
+      ]
+    },
+    {
+      "task_id": "hb-9845c59a-0f8",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 0.9,
+      "baseline_cost_usd": 0.0017475,
+      "variants": [
+        {
+          "variant_id": "hb-9845c59a-0f8-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001776,
+          "latency_ms": 1078
+        },
+        {
+          "variant_id": "hb-9845c59a-0f8-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0017775,
+          "latency_ms": 1003
+        },
+        {
+          "variant_id": "hb-9845c59a-0f8-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0017955,
+          "latency_ms": 705
+        },
+        {
+          "variant_id": "hb-9845c59a-0f8-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.00177,
+          "latency_ms": 786
+        },
+        {
+          "variant_id": "hb-9845c59a-0f8-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001764,
+          "latency_ms": 780
+        },
+        {
+          "variant_id": "hb-9845c59a-0f8-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0016935,
+          "latency_ms": 782
+        },
+        {
+          "variant_id": "hb-9845c59a-0f8-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001908,
+          "latency_ms": 881
+        }
+      ]
+    },
+    {
+      "task_id": "hb-3dde04d7-87a",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.0021225,
+      "variants": [
+        {
+          "variant_id": "hb-3dde04d7-87a-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021825,
+          "latency_ms": 897
+        },
+        {
+          "variant_id": "hb-3dde04d7-87a-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021675,
+          "latency_ms": 950
+        },
+        {
+          "variant_id": "hb-3dde04d7-87a-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021945,
+          "latency_ms": 846
+        },
+        {
+          "variant_id": "hb-3dde04d7-87a-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.002145,
+          "latency_ms": 816
+        },
+        {
+          "variant_id": "hb-3dde04d7-87a-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "correct",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0021165,
+          "latency_ms": 770
+        },
+        {
+          "variant_id": "hb-3dde04d7-87a-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "correct",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0021555,
+          "latency_ms": 813
+        },
+        {
+          "variant_id": "hb-3dde04d7-87a-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021675,
+          "latency_ms": 914
+        }
+      ]
+    },
+    {
+      "task_id": "hb-fdf703c7-46a",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 0.98,
+      "baseline_cost_usd": 0.0021495,
+      "variants": [
+        {
+          "variant_id": "hb-fdf703c7-46a-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021645,
+          "latency_ms": 1251
+        },
+        {
+          "variant_id": "hb-fdf703c7-46a-paraphrase_synonym",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0023685,
+          "latency_ms": 1086
+        },
+        {
+          "variant_id": "hb-fdf703c7-46a-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021765,
+          "latency_ms": 4172
+        },
+        {
+          "variant_id": "hb-fdf703c7-46a-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.002292,
+          "latency_ms": 2231
+        },
+        {
+          "variant_id": "hb-fdf703c7-46a-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.002166,
+          "latency_ms": 2352
+        },
+        {
+          "variant_id": "hb-fdf703c7-46a-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0021495,
+          "latency_ms": 2525
+        },
+        {
+          "variant_id": "hb-fdf703c7-46a-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0021495,
+          "latency_ms": 5083
+        }
+      ]
+    },
+    {
+      "task_id": "hb-bf9577d1-6d1",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 0.9,
+      "baseline_cost_usd": 0.001557,
+      "variants": [
+        {
+          "variant_id": "hb-bf9577d1-6d1-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001572,
+          "latency_ms": 2882
+        },
+        {
+          "variant_id": "hb-bf9577d1-6d1-paraphrase_synonym",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001557,
+          "latency_ms": 2945
+        },
+        {
+          "variant_id": "hb-bf9577d1-6d1-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0016065,
+          "latency_ms": 1923
+        },
+        {
+          "variant_id": "hb-bf9577d1-6d1-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001437,
+          "latency_ms": 779
+        },
+        {
+          "variant_id": "hb-bf9577d1-6d1-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0014685,
+          "latency_ms": 664
+        },
+        {
+          "variant_id": "hb-bf9577d1-6d1-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0014295,
+          "latency_ms": 732
+        },
+        {
+          "variant_id": "hb-bf9577d1-6d1-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015795,
+          "latency_ms": 775
+        }
+      ]
+    },
+    {
+      "task_id": "hb-0c808eda-eeb",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001047,
+      "variants": [
+        {
+          "variant_id": "hb-0c808eda-eeb-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001062,
+          "latency_ms": 694
+        },
+        {
+          "variant_id": "hb-0c808eda-eeb-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001047,
+          "latency_ms": 750
+        },
+        {
+          "variant_id": "hb-0c808eda-eeb-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001089,
+          "latency_ms": 794
+        },
+        {
+          "variant_id": "hb-0c808eda-eeb-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001077,
+          "latency_ms": 666
+        },
+        {
+          "variant_id": "hb-0c808eda-eeb-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0010635,
+          "latency_ms": 753
+        },
+        {
+          "variant_id": "hb-0c808eda-eeb-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.001095,
+          "latency_ms": 768
+        },
+        {
+          "variant_id": "hb-0c808eda-eeb-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0010485,
+          "latency_ms": 982
+        }
+      ]
+    },
+    {
+      "task_id": "hb-160d2312-e44",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001473,
+      "variants": [
+        {
+          "variant_id": "hb-160d2312-e44-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": false,
+          "cost_usd": 0.001488,
+          "latency_ms": 725
+        },
+        {
+          "variant_id": "hb-160d2312-e44-paraphrase_synonym",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": false,
+          "cost_usd": 0.001488,
+          "latency_ms": 812
+        },
+        {
+          "variant_id": "hb-160d2312-e44-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014925,
+          "latency_ms": 730
+        },
+        {
+          "variant_id": "hb-160d2312-e44-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0015105,
+          "latency_ms": 805
+        },
+        {
+          "variant_id": "hb-160d2312-e44-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0015795,
+          "latency_ms": 1842
+        },
+        {
+          "variant_id": "hb-160d2312-e44-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0014715,
+          "latency_ms": 743
+        },
+        {
+          "variant_id": "hb-160d2312-e44-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014655,
+          "latency_ms": 874
+        }
+      ]
+    },
+    {
+      "task_id": "hb-116b4c96-aff",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001863,
+      "variants": [
+        {
+          "variant_id": "hb-116b4c96-aff-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001878,
+          "latency_ms": 753
+        },
+        {
+          "variant_id": "hb-116b4c96-aff-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001863,
+          "latency_ms": 966
+        },
+        {
+          "variant_id": "hb-116b4c96-aff-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0019275,
+          "latency_ms": 930
+        },
+        {
+          "variant_id": "hb-116b4c96-aff-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0018255,
+          "latency_ms": 768
+        },
+        {
+          "variant_id": "hb-116b4c96-aff-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.001797,
+          "latency_ms": 828
+        },
+        {
+          "variant_id": "hb-116b4c96-aff-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0018405,
+          "latency_ms": 814
+        },
+        {
+          "variant_id": "hb-116b4c96-aff-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0018435,
+          "latency_ms": 835
+        }
+      ]
+    },
+    {
+      "task_id": "hb-8bdc97ee-cf5",
+      "baseline_verdict": "incorrect",
+      "baseline_confidence": 0.9,
+      "baseline_cost_usd": 0.0011625,
+      "variants": [
+        {
+          "variant_id": "hb-8bdc97ee-cf5-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0011235,
+          "latency_ms": 771
+        },
+        {
+          "variant_id": "hb-8bdc97ee-cf5-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.00114,
+          "latency_ms": 713
+        },
+        {
+          "variant_id": "hb-8bdc97ee-cf5-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0011805,
+          "latency_ms": 1530
+        },
+        {
+          "variant_id": "hb-8bdc97ee-cf5-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0011175,
+          "latency_ms": 665
+        },
+        {
+          "variant_id": "hb-8bdc97ee-cf5-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001149,
+          "latency_ms": 693
+        },
+        {
+          "variant_id": "hb-8bdc97ee-cf5-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0011625,
+          "latency_ms": 684
+        },
+        {
+          "variant_id": "hb-8bdc97ee-cf5-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "incorrect",
+          "variant_verdict": "incorrect",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0011625,
+          "latency_ms": 705
+        }
+      ]
+    },
+    {
+      "task_id": "hb-e126273b-9d5",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 0.95,
+      "baseline_cost_usd": 0.0014535,
+      "variants": [
+        {
+          "variant_id": "hb-e126273b-9d5-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014685,
+          "latency_ms": 776
+        },
+        {
+          "variant_id": "hb-e126273b-9d5-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014235,
+          "latency_ms": 645
+        },
+        {
+          "variant_id": "hb-e126273b-9d5-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0014505,
+          "latency_ms": 856
+        },
+        {
+          "variant_id": "hb-e126273b-9d5-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0013785,
+          "latency_ms": 790
+        },
+        {
+          "variant_id": "hb-e126273b-9d5-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0015675,
+          "latency_ms": 1172
+        },
+        {
+          "variant_id": "hb-e126273b-9d5-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0014535,
+          "latency_ms": 863
+        },
+        {
+          "variant_id": "hb-e126273b-9d5-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "incorrect",
+          "flipped": true,
+          "matches_expectation": true,
+          "cost_usd": 0.0013875,
+          "latency_ms": 768
+        }
+      ]
+    },
+    {
+      "task_id": "hb-3ca92a0b-fe3",
+      "baseline_verdict": "correct",
+      "baseline_confidence": 1.0,
+      "baseline_cost_usd": 0.001971,
+      "variants": [
+        {
+          "variant_id": "hb-3ca92a0b-fe3-comment_only_filler",
+          "family": "comment_only_filler",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001986,
+          "latency_ms": 782
+        },
+        {
+          "variant_id": "hb-3ca92a0b-fe3-paraphrase_synonym__inapplicable",
+          "family": "paraphrase_synonym",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001956,
+          "latency_ms": 778
+        },
+        {
+          "variant_id": "hb-3ca92a0b-fe3-irrelevant_citation",
+          "family": "irrelevant_citation",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0020055,
+          "latency_ms": 717
+        },
+        {
+          "variant_id": "hb-3ca92a0b-fe3-shuffle_passage_order",
+          "family": "shuffle_passage_order",
+          "expected_judge_flip": false,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.0019635,
+          "latency_ms": 739
+        },
+        {
+          "variant_id": "hb-3ca92a0b-fe3-reversed_answer",
+          "family": "reversed_answer",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.0019275,
+          "latency_ms": 863
+        },
+        {
+          "variant_id": "hb-3ca92a0b-fe3-single_word_negation_drop",
+          "family": "single_word_negation_drop",
+          "expected_judge_flip": true,
+          "applicable": true,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": false,
+          "cost_usd": 0.001893,
+          "latency_ms": 1083
+        },
+        {
+          "variant_id": "hb-3ca92a0b-fe3-numeric_swap",
+          "family": "numeric_swap",
+          "expected_judge_flip": false,
+          "applicable": false,
+          "baseline_verdict": "correct",
+          "variant_verdict": "correct",
+          "flipped": false,
+          "matches_expectation": true,
+          "cost_usd": 0.001956,
+          "latency_ms": 1295
+        }
+      ]
+    }
+  ]
+}

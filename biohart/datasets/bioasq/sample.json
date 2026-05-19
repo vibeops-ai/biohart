@@ -1,0 +1,302 @@
+[
+  {
+    "task_id": "bioasq-1951",
+    "question": "In which kingdom do microsporidia belong, according to their current classification scheme?",
+    "context_passages": [
+      "Microsporidian infection in a free-living marine nematode. Microsporidia are unicellular fungi that are obligate endoparasites. Although nematodes are one of the most abundant and diverse animal groups, the only confirmed report of microsporidian infection was that of the \"nematode killer\" (Nematocida parisii). N. parisii was isolated from a wild Caenorhabditis sp. and causes an acute and lethal intestinal infection in a lab strain of Caenorhabditis elegans. We set out to characterize a microsporidian infection in a wild nematode to determine whether the infection pattern of N. parisii in the lab is typical of microsporidian infections in nematodes. We describe a novel microsporidian species named Sporanauta perivermis (marine spore of roundworms) and characterize its infection in its natural host, the free-living marine nematode Odontophora rectangula. S. perivermis is not closely related to N. parisii and differs strikingly in all aspects of infection. Examination by transmission electron microscopy (TEM) revealed that the infection was localized in the hypodermal and muscle tissues only and did not involve the intestines. Fluorescent in situ hybridization (FISH) confirmed infection in the muscle and hypodermis, and surprisingly, it also revealed that the parasite infects O. rectangula eggs, suggesting a vertical mode of transmission. Our observations highlight the importance of studying parasites in their natural hosts and indicate that not all nematode-infecting microsporidia are \"nematode killers\"; instead, microsporidiosis can be more versatile and chronic in the wild."
+    ],
+    "long_answer": "fungi",
+    "final_decision": "yes",
+    "pubid": "1951"
+  },
+  {
+    "task_id": "bioasq-713",
+    "question": "Which disease of the central nervous system is characterized by the presence of Lewy bodies?",
+    "context_passages": [
+      "SUMO and Parkinson's disease. Parkinson's disease (PD) is one of the most common degenerative disorders of the central nervous system that produces motor and non-motor symptoms. The majority of cases are idiopathic and characterized by the presence of Lewy bodies containing fibrillar \u03b1-synuclein. Small ubiquitin-related modifier (SUMO) immunoreactivity was observed among others in cases with PD. Key disease-associated proteins are SUMO-modified, linking this posttranslational modification to neurodegeneration. SUMOylation and SUMO-mediated mechanisms have been intensively studied in recent years, revealing nuclear and extranuclear functions for SUMO in a variety of cellular processes, including the regulation of transcriptional activity, modulation of signal transduction pathways, and response to cellular stress. This points to a role for SUMO more than just an antagonist to ubiquitin and proteasomal degradation. The identification of risk and age-at-onset gene loci was a breakthrough in PD and promoted the understanding of molecular mechanisms in the pathology. PD has been increasingly linked with mitochondrial dysfunction and impaired mitochondrial quality control. Interestingly, SUMO is involved in many of these processes and up-regulated in response to cellular stress, further emphasizing the importance of SUMOylation in physiology and disease."
+    ],
+    "long_answer": "Parkinson's disease (PD)",
+    "final_decision": "yes",
+    "pubid": "713"
+  },
+  {
+    "task_id": "bioasq-2834",
+    "question": "To the ligand of which receptors does Denosumab (Prolia) bind?",
+    "context_passages": [
+      "Receptor activator for NF-\u03baB ligand in acute myeloid leukemia: expression, function, and modulation of NK cell immunosurveillance. The TNF family member receptor activator for NF-\u03baB ligand (RANKL) and its receptors RANK and osteoprotegerin are key regulators of bone remodeling but also influence cellular functions of tumor and immune effector cells. In this work, we studied the involvement of RANK-RANKL interaction in NK cell-mediated immunosurveillance of acute myeloid leukemia (AML). Substantial levels of RANKL were found to be expressed on leukemia cells in 53 of 78 (68%) investigated patients. Signaling via RANKL into the leukemia cells stimulated their metabolic activity and induced the release of cytokines involved in AML pathophysiology. In addition, the immunomodulatory factors released by AML cells upon RANKL signaling impaired the anti-leukemia reactivity of NK cells and induced RANK expression, and NK cells of AML patients displayed significantly upregulated RANK expression compared with healthy controls. Treatment of AML cells with the clinically available RANKL Ab Denosumab resulted in enhanced NK cell anti-leukemia reactivity. This was due to both blockade of the release of NK-inhibitory factors by AML cells and prevention of RANK signaling into NK cells. The latter was found to directly impair NK anti-leukemia reactivity with a more pronounced effect on IFN-\u03b3 production compared with cytotoxicity. Together, our data unravel a previously unknown function of the RANK-RANKL molecule system in AML pathophysiology as well as NK cell function and suggest that neutralization of RANKL with therapeutic Abs may serve to reinforce NK cell reactivity in leukemia patients."
+    ],
+    "long_answer": "RANKL",
+    "final_decision": "yes",
+    "pubid": "2834"
+  },
+  {
+    "task_id": "bioasq-1822",
+    "question": "Which is the most common measure of differences between dinucleotide relative abundance \"genomic signatures\"",
+    "context_passages": [
+      "Using Mahalanobis distance to compare genomic signatures between bacterial plasmids and chromosomes. Plasmids are ubiquitous mobile elements that serve as a pool of many host beneficial traits such as antibiotic resistance in bacterial communities. To understand the importance of plasmids in horizontal gene transfer, we need to gain insight into the 'evolutionary history' of these plasmids, i.e. the range of hosts in which they have evolved. Since extensive data support the proposal that foreign DNA acquires the host's nucleotide composition during long-term residence, comparison of nucleotide composition of plasmids and chromosomes could shed light on a plasmid's evolutionary history. The average absolute dinucleotide relative abundance difference, termed delta-distance, has been commonly used to measure differences in dinucleotide composition, or 'genomic signature', between bacterial chromosomes and plasmids. Here, we introduce the Mahalanobis distance, which takes into account the variance-covariance structure of the chromosome signatures. We demonstrate that the Mahalanobis distance is better than the delta-distance at measuring genomic signature differences between plasmids and chromosomes of potential hosts. We illustrate the usefulness of this metric for proposing candidate long-term hosts for plasmids, focusing on the virulence plasmids pXO1 from Bacillus anthracis, and pO157 from Escherichia coli O157:H7, as well as the broad host range multi-drug resistance plasmid pB10 from an unknown host."
+    ],
+    "long_answer": "delta-distance",
+    "final_decision": "yes",
+    "pubid": "1822"
+  },
+  {
+    "task_id": "bioasq-2508",
+    "question": "What is the characteristic domain of histone methyltransferases?",
+    "context_passages": [
+      "Chlamydial SET domain protein functions as a histone methyltransferase. SET domain genes have been identified in numbers of bacterial genomes based on similarity to SET domains of eukaryotic histone methyltransferases. Herein, a Chlamydophila pneumoniae SET domain gene was clarified to be coincidently expressed with hctA and hctB genes encoding chlamydial histone H1-like proteins, Hc1 and Hc2, respectively. The SET domain protein (cpnSET) is localized in chlamydial cells and interacts with Hc1 and Hc2 through the C-terminal SET domain. As expected from conservation of catalytic sites in cpnSET, it functions as a protein methyltransferase to murine histone H3 and Hc1. However, little is known about protein methylation in the molecular pathogenesis of chlamydial infection. cpnSET may play an important role in chlamydial cell maturation due to modification of chlamydial histone H1-like proteins."
+    ],
+    "long_answer": "SET domain",
+    "final_decision": "yes",
+    "pubid": "2508"
+  },
+  {
+    "task_id": "bioasq-2151",
+    "question": "What is the mode of inheritance of Facioscapulohumeral muscular dystrophy (FSHD)?",
+    "context_passages": [
+      "The strength and functional performance in patients with facioscapulohumeral muscular dystrophy. Facioscapulohumeral muscular dystrophy (FSHD) is a slowly progressive myopathy with autosomal dominant inheritance remarkable for its early involvement of facial musculature. The purpose of our study was to assess the rate of strength deterioration, functional condition and performance of activity of daily living of patients with FSHD in Taiwan. Twenty patients diagnosed with FSHD were included in this study. Manual muscle testing (MMT) was used to evaluate muscle strength. The Brooke and Vignos scales were used to assess upper and lower extremity function respectively, and the capability of the activity of daily living was measured by Barthel index. The result of the strength testing was characterized by the presence of a progressive asymmetrical muscular weakness in patients with FSHD. The mean muscular strength of the right extremity was weaker than its left counterparts (p < 0.05) and the shoulder muscle group was the weakest. According to the Brooke functional scale, 20% of our patients were graded as 1, 30% as grade 2, and 50% as grade 3. On the Vignos functional scale, 50% of patients fell into grade 1, 10% in grade 2, and 40% in grades 3-5. Vignos scale was significantly correlated with mean muscle strength (p < 0.05). The average value of Barthel index was 97.8 +/- 4.7. The muscle strength decline in this Taiwanese of FSHD population was more severe in shoulder girdle area. The mean muscle strength of the right extremity was weaker than the left. Most of our patients suffered from mild or moderate physical disability. Finding of these Taiwanese FSHD population is similar to those reported elsewhere in the world."
+    ],
+    "long_answer": "autosomal dominant",
+    "final_decision": "yes",
+    "pubid": "2151"
+  },
+  {
+    "task_id": "bioasq-2046",
+    "question": "Which hormone receptor function is altered in patients with Donohue syndrome?",
+    "context_passages": [
+      "Two novel mutations in the insulin binding subunit of the insulin receptor gene without insulin binding impairment in a patient with Rabson-Mendenhall syndrome. Homozygous or compound heterozygous mutations within the insulin binding domain of the human insulin receptor (INSR) are usually associated with severe impairment of insulin binding leading to Donohue syndrome (\"Leprechaunism\"), which is characterized by excessive hyperglycemia with hyperinsulinism, pre- and postnatal growth retardation, distinct dysmorphism and early death. Missense mutations in the beta subunits are commonly associated with a milder impairment of insulin binding and milder phenotype with prolonged survival and less dysmorphism, the so called Rabson-Mendenhall syndrome. We report on a 13-year-old girl with Donohue syndrome like dysmorphism, hyperinsulinism and prolonged survival due to two novel INSR missense mutations within the insulin binding domain. Unexpectedly, insulin binding assays and investigations of activation of central insulin signaling pathways in fibroblasts revealed no significant alterations. Instead, immunofluorescence studies showed abnormal perinuclear distribution of the INSR alpha and beta subunits. Our data indicate that the quality of insulin binding activity is correlated with survival, not with the dysmorphic phenotype, and it is not always a valid parameter for predicting INSR mutations as proposed."
+    ],
+    "long_answer": "insulin",
+    "final_decision": "yes",
+    "pubid": "2046"
+  },
+  {
+    "task_id": "bioasq-36",
+    "question": "Which hormone abnormalities are characteristic to Pendred syndrome?",
+    "context_passages": [
+      "Genetic factors that might lead to different responses in individuals exposed to perchlorate. Perchlorate has been detected in groundwater in many parts of the United States, and recent detection in vegetable and dairy food products indicates that contamination by perchlorate is more widespread than previously thought. Perchlorate is a competitive inhibitor of the sodium iodide symporter, the thyroid cell-surface protein responsible for transporting iodide from the plasma into the thyroid. An estimated 4.3% of the U.S. population is subclinically hypothyroid, and 6.9% of pregnant women may have low iodine intake. Congenital hypothyroidism affects 1 in 3,000 to 1 in 4,000 infants, and 15% of these cases have been attributed to genetic defects. Our objective in this review is to identify genetic biomarkers that would help define subpopulations sensitive to environmental perchlorate exposure. We review the literature to identify genetic defects involved in the iodination process of the thyroid hormone synthesis, particularly defects in iodide transport from circulation into the thyroid cell, defects in iodide transport from the thyroid cell to the follicular lumen (Pendred syndrome), and defects of iodide organification. Furthermore, we summarize relevant studies of perchlorate in humans. Because of perchlorate inhibition of iodide uptake, it is biologically plausible that chronic ingestion of perchlorate through contaminated sources may cause some degree of iodine discharge in populations that are genetically susceptible to defects in the iodination process of the thyroid hormone synthesis, thus deteriorating their conditions. We conclude that future studies linking human disease and environmental perchlorate exposure should consider the genetic makeup of the participants, actual perchlorate exposure levels, and individual iodine intake/excretion levels."
+    ],
+    "long_answer": "thyroid",
+    "final_decision": "yes",
+    "pubid": "36"
+  },
+  {
+    "task_id": "bioasq-3068",
+    "question": "How many genera comprise the Flaviviridae family?",
+    "context_passages": [
+      "Antiviral activity of benzimidazole derivatives. I. Antiviral activity of 1-substituted-2-[(benzotriazol-1/2-yl)methyl]benzimidazoles. Forty-three 2-[(benzotriazol-1/2-yl)methyl]benzimidazoles, bearing either linear (dialkylamino)alkyl- or bulkier (quinolizidin-1-yl)alkyl moieties at position 1, were evaluated in cell-based assays for cytotoxicity and antiviral activity against viruses representative of two of the three genera of the Flaviviridae family, i.e. Flaviviruses (Yellow Fever Virus (YFV)) and Pestiviruses (Bovine Viral Diarrhoea Virus (BVDV)), as Hepaciviruses can hardly be used in routine cell-based assays. Compounds were also tested against representatives of other virus families. Among ssRNA+ viruses were a retrovirus (Human Immunodeficiency Virus type 1 (HIV-1)), two picornaviruses (Coxsackie Virus type B2 (CVB2), and Poliovirus type-1, Sabin strain (Sb-1)); among ssRNA- viruses were a Paramyxoviridae (Respiratory Syncytial Virus (RSV)) and a Rhabdoviridae (Vesicular Stomatitis Virus (VSV)) representative. Among double-stranded RNA (dsRNA) viruses was a Reoviridae representative (Reo-1). Two representatives of DNA virus families were also included: Herpes Simplex type 1, (HSV-1; Herpesviridae) and Vaccinia Virus (VV; Poxviridae). Most compounds exhibited potent activity against RSV, with EC(50) values as low as 20 nM. Moreover, some compounds, in particular when bearing a (quinolizidin-1-yl)alkyl residue, were also moderately active against BVDV, YFV, and CVB2."
+    ],
+    "long_answer": "three",
+    "final_decision": "yes",
+    "pubid": "3068"
+  },
+  {
+    "task_id": "bioasq-1507",
+    "question": "In which condition was protein S100A7 originally identified?",
+    "context_passages": [
+      "Antimicrobial activity of bovine psoriasin. Human psoriasin (S100A7) has originally been described as a member of the family of S100 calcium-binding proteins which is overexpressed in patients suffering from psoriasis. The bovine homolog was first identified as a cow-derived respiratory allergen. As Escherichia coli mastitis is a common problem in dairy cattle, and human psoriasin was found to exhibit antimicrobial activity preferentially against E. coli, we examined whether the bovine mRNA is expressed in the mammary gland. To demonstrate the antimicrobial activity of bovine psoriasin, we isolated cDNA from the udder, cloned the bovine psoriasin gene in a bacterial expression vector, and the recombinant protein was expressed in BL21 cells. The in vitro antibacterial activity was tested by performing microdilution susceptibility tests and radial diffusion assays with eight different bacterial strains, thereof three different E. coli strains, and one yeast. The antimicrobial activity of the recombinant bovine psoriasin is comparable with human psoriasin and also limited to E. coli. Psoriasin appears to be a part of the local host defense mechanism in the udder, is a putative candidate for a cow-specific factor influencing mastitis susceptibility, and a possible alternative to conventional antibiotics."
+    ],
+    "long_answer": "psoriasis",
+    "final_decision": "yes",
+    "pubid": "1507"
+  },
+  {
+    "task_id": "bioasq-1630",
+    "question": "Which is the most common type of pediatric cerebellar tumor?",
+    "context_passages": [
+      "Neuropathology of pediatric brain tumors. Pediatric central nervous system neoplasms include a spectrum of both glial and nonglial tumors that differ significantly in location and biological behavior from those of adults. Brain tumors in infants and children most often arise from central neuroepithelial tissue, whereas a significant number of adult tumors arise from central nervous system coverings (e.g., meningioma), adjacent tissue (e.g., pituitary adenoma), or metastases. Most adult brain tumors are supratentorial malignant gliomas, whereas the most common malignant pediatric brain tumor is the cerebellar primitive neuroectodermal tumor (medulloblastoma). This article reviews neuropathological characteristics of the more common pediatric brain tumors. Entities, such as the brainstem glioma, and less common neoplasms like the desmoplastic infantile ganglioglioma and the central nervous system atypical teratoid/rhabdoid tumor are reviewed because they occur almost exclusively in children. Known cytogenetic and molecular characteristics of childhood brain tumors are also reviewed."
+    ],
+    "long_answer": "medulloblastoma",
+    "final_decision": "yes",
+    "pubid": "1630"
+  },
+  {
+    "task_id": "bioasq-2056",
+    "question": "From which tissue was the NCI-H520 cell-line derived?",
+    "context_passages": [
+      "Oxidative and endoplasmic reticulum stress signaling are involved in dehydrocostuslactone-mediated apoptosis in human non-small cell lung cancer cells. This study investigates the anticancer effect of dehydrocostuslactone (DHE), a medicinal plant-derived sesquiterpene lactone, on human non-small cell lung cancer cell lines, A549, NCI-H460 and NCI-H520. Our results show that DHE inhibits the proliferation of A549, NCI-H460 and NCI-H520 cells. DHE-induced apoptosis in both A549 and NCI-H460 cells. DHE triggered endoplasmic reticulum (ER) stress, as indicated by changes in cytosol-calcium levels, PKR-like ER kinase (PERK) phosphorylation, inositol requiring protein 1 (IRE1) and CHOP/GADD153 upregulation, X-box transcription factor-1 (XBP-1) mRNA splicing, and caspase-4 activation. The release of calcium triggered the production of ROS, which further enhances calcium overloading and subsequently activates p38, JNK and ERK1/2. Both IRE1 miRNA transfection and BAPTA-AM pretreatment inhibit DHE-mediated apoptosis, supporting the hypothesis that DHE induces cell death through ER stress. Importantly, a novel anticancer agent for the treatment of non-small cell lung cancer, and is supported by animal studies which have shown a dramatic 50% reduction in tumor size after 28 days of treatment. This study demonstrates that DHE may be a novel anticancer agent for the treatment of non-small cell lung cancer."
+    ],
+    "long_answer": "lung",
+    "final_decision": "yes",
+    "pubid": "2056"
+  },
+  {
+    "task_id": "bioasq-2074",
+    "question": "Which hormone deficiency is implicated in the Costello syndrome ?",
+    "context_passages": [
+      "Osteofibrous dysplasia in a Japanese boy with Costello syndrome. We present the case of a boy with Costello syndrome who developed osteofibrous dysplasia during a phase of growth hormone therapy. The lesion and the accompanying pain disappeared after discontinuation of the therapy. Growth hormone is a known mitogen for some neoplasms and osteofibrous dysplasia has been reported to become aggressive. Thus, although osteofibrous dysplasia in Costello syndrome has not been reported before, growth hormone therapy should be used under close supervision in children with this syndrome."
+    ],
+    "long_answer": "growth hormone",
+    "final_decision": "yes",
+    "pubid": "2074"
+  },
+  {
+    "task_id": "bioasq-520",
+    "question": "Which protein is causing Netherton syndrome?",
+    "context_passages": [
+      "Phase I study protocol for ex-vivo lentiviral gene therapy for the inherited skin disease, Netherton Syndrome. Netherton syndrome (NS) is a serious inherited skin disorder caused by mutations in the gene SPINK5 (serine protease inhibitor Kazal type 5) which encodes for a serine protease inhibitor LEKTI (lymphoepithelial Kazal type-related inhibitor). Patients with NS have defective keratinization, hair shaft defects, recurrent infections, atopy and a predisposition to skin malignancies. Historically, one in ten infants has died before their first birthday. Currently there are no proven treatments to cure this condition. A SIN-lentiviral vector encoding the codon optimized SPINK5 gene under the control of a 572bp element derived from the human involucrin promoter (INVO) can confer compartment specific LEKTI expression in NS keratinocytes with restoration of normal skin architecture. Here we detail a study protocol for a phase I trial for feasibility and safety evaluations of autologous epidermal sheets generated from ex-vivo gene corrected keratinocyte stem cells, which will be grafted onto patients with mutation proven NS."
+    ],
+    "long_answer": "lymphoepithelial Kazal type-related inhibitor",
+    "final_decision": "yes",
+    "pubid": "520"
+  },
+  {
+    "task_id": "bioasq-2610",
+    "question": "What tyrosine kinase, involved in a Philadelphia- chromosome positive chronic myelogenous leukemia, is the target of Imatinib (Gleevec)?",
+    "context_passages": [
+      "In vitro effects of STI 571-containing drug combinations on the growth of Philadelphia-positive chronic myelogenous leukemia cells. BACKGROUND: Chronic myelogenous leukemia (CML) is characterized by a molecular aberration, a fusion BCR-ABL gene encoding for aberrant tyrosine kinase activity, which is crucial in the pathogenesis of CML. In vitro, inhibition of BCR-ABL protein tyrosine kinase activity by a tyrosine kinase inhibitor, Imatinib mesylate (STI571; formerly CGP57148B), successfully suppressed proliferation/survival of the BCR-ABL positive clones. In clinical studies, hematologic and cytogenetic remissions have been achieved in most patients with chronic phase CML; in accelerated and blastic phases of CML, STI571 appeared less effective. In the current study, the authors tested combinations of STI571 and cytarabine and homoharringtonine (HHT), drugs with documented activity in CML. METHODS: The single agents and their combinations were studied for in vitro effect on proliferation of BCR-ABL positive cell lines KBM5 and KBM7 by 3(4,5-dimethylthiazol-2yl)-2,5 diphenyl-tetrazolium bromide assay and on primary patient-derived BCR-ABL cells by clonogenic assays. The in vitro additive, synergistic, or antagonistic effects of cytarabine and HHT with STI571 were then investigated by computer-assisted analysis using the CalcuSyn software. RESULTS: STI571 consistently suppressed BCR-ABL positive cell proliferation with a dose-effect correlation. In the model system used, STI571/cytarabine and STI571/HHT combinations were more effective in inhibiting KBM5 and KBM7 cell growth than each drug as single agent. These results were also verified in primary CML-derived clonogenic cells in semisolid cultures. CONCLUSIONS: In this experimental system, our studies documented additive or synergistic effects with STI571 plus cytarabine or HHT, supporting the future use of STI571 combinations in clinical trials in patients with Philadelphia chromosome-positive leukemias."
+    ],
+    "long_answer": "BCR-ABL",
+    "final_decision": "yes",
+    "pubid": "2610"
+  },
+  {
+    "task_id": "bioasq-1674",
+    "question": "Which autophagy pathway is trigered by the KFERQ motif of cytosolic proteins?",
+    "context_passages": [
+      "Chaperone-mediated autophagy components are upregulated in sporadic inclusion-body myositis muscle fibres. AIMS: Sporadic inclusion-body myositis (s-IBM) is an age-associated degenerative muscle disease. Characteristic features are muscle-fibre vacuolization and intramuscle-fibre accumulations of multiprotein aggregates, which may result from the demonstrated impairments of the 26S proteasome and autophagy. Chaperone-mediated autophagy (CMA) is a selective form of lysosomal degradation targeting proteins carrying the KFERQ motif. Lysosome-associated membrane protein type 2A (LAMP2A) and the heat-shock cognate protein 70 (Hsc70) constitute specific CMA components. Neither CMA components nor CMA activity has been studied in normal or disease human muscle, to our knowledge. METHODS: We studied CMA components by immunocytochemistry, immunoblots, real-time PCR and immunoprecipitation in: (a) 16 s-IBM, nine aged-matched normal and nine disease control muscle biopsies; and (b) cultured human muscle fibres (CHMFs) with experimentally inhibited activities of either the 26S proteasome or autophagy. RESULTS: Compared with age-matched controls, in s-IBM muscle, LAMP2A and Hsc70 were on a given transverse section accumulated as aggregates in approximately 5% of muscle fibres, where they (a) colocalized with each other and \u03b1-synuclein (\u03b1-syn), a CMA-targeted protein; and (b) were bound to each other and to \u03b1-syn by immunoprecipitation. By immunoblots, LAMP2A was increased sevenfold P < 0.001 and Hsc70 2.6-fold P < 0.05. LAMP2A mRNA was increased 4.4-fold P < 0.001 and Hsc70 mRNA 1.9-fold P < 0.05. In CHMFs inhibition of either the 26S proteasome or autophagy induced CMA, evidenced by a significant increase of both LAMP2A and Hsc70. CONCLUSIONS: Our study demonstrates, for the first time, up-regulation of CMA components in s-IBM muscle, and it provides further evidence that altered protein degradation is likely an important pathogenic aspect in s-IBM."
+    ],
+    "long_answer": "Chaperone-mediated autophagy (CMA)",
+    "final_decision": "yes",
+    "pubid": "1674"
+  },
+  {
+    "task_id": "bioasq-2660",
+    "question": "What is the name of the stem loop present in the 3' end of genes encoding for selenoproteins?",
+    "context_passages": [
+      "Altered RNA binding activity underlies abnormal thyroid hormone metabolism linked to a mutation in selenocysteine insertion sequence-binding protein 2. The expression of selenoproteins requires the translational recoding of the UGA stop codon to selenocysteine. In eukaryotes, this requires an RNA stem loop structure in the 3'-untranslated region, termed a selenocysteine insertion sequence (SECIS), and SECIS-binding protein 2 (SBP2). This study implicates SBP2 in dictating the hierarchy of selenoprotein expression, because it is the first to show that SBP2 distinguishes between SECIS elements in vitro. Using RNA electrophoretic mobility shift assays, we demonstrate that a naturally occurring mutation in SBP2, which correlates with abnormal thyroid hormone function in humans, lies within a novel, bipartite RNA-binding domain. This mutation alters the RNA binding affinity of SBP2 such that it no longer stably interacts with a subset of SECIS elements. Assays performed under competitive conditions to mimic intracellular conditions suggest that the differential affinity of SBP2 for various SECIS elements will determine the expression pattern of the selenoproteome. We hypothesize that the selective loss of a subset of selenoproteins, including some involved in thyroid hormone homeostasis, is responsible for the abnormal thyroid hormone metabolism previously observed in the affected individuals."
+    ],
+    "long_answer": "SECIS",
+    "final_decision": "yes",
+    "pubid": "2660"
+  },
+  {
+    "task_id": "bioasq-340",
+    "question": "What is generic name of drug Adempas?",
+    "context_passages": [
+      "Riociguat: a review of its use in patients with chronic thromboembolic pulmonary hypertension or pulmonary arterial hypertension. Riociguat (Adempas(\u00ae)), a soluble guanylate cyclase stimulator, is a new, first-in-class drug approved for the treatment of patients with chronic thromboembolic pulmonary hypertension (CTEPH) [inoperable or persistent/recurrent following surgery] or pulmonary arterial hypertension (PAH). It has been designated an orphan medicine by the European Medicines Agency and the US FDA. This article reviews the available pharmacological properties of oral riociguat and its clinical efficacy and tolerability in adults with CTEPH or PAH. Riociguat is effective and well tolerated in patients with inoperable CTEPH or persistent/recurrent CTEPH following pulmonary endarterectomy, and in patients with PAH. It has a positive result on exercise capacity and pulmonary haemodynamics, and improves WHO functional class. Most adverse events can be attributed to the vasodilatory mechanism of riociguat; however, there is a potential for serious bleeding and fetal harm, and riociguat use is contraindicated in pregnant patients. Pulmonary endarterectomy remains the first treatment of choice for CTEPH, as it is potentially curative. Head-to-head trials comparing riociguat with the approved phosphodiesterase type 5 inhibitors in patients with PAH would be of value for the placement of riociguat in the management of this disease. Riociguat is a promising addition to the treatment options for patients with CTEPH or PAH."
+    ],
+    "long_answer": "Riociguat",
+    "final_decision": "yes",
+    "pubid": "340"
+  },
+  {
+    "task_id": "bioasq-800",
+    "question": "What is the main component of the Lewy bodies?",
+    "context_passages": [
+      "Upregulation of amyloid precursor protein isoforms containing Kunitz protease inhibitor in dementia with Lewy bodies. Amyloid precursor protein (APP) is involved in the accumulation of alpha-synuclein, the main component of Lewy bodies. It is currently unknown, however, whether any of the APP isoforms is instrumental in alpha-synuclein deposition in dementia with Lewy bodies (DLB). Using real-time RT-PCR, we have studied relative mRNA expression levels of APP isoforms in frozen postmortem frontal cortices of DLB patients, Alzheimer disease (AD) patients, and control subjects. Of the three main APP isoforms, the two with a Kunitz protease inhibitory (KPI) motif (APP770 and APP751) were found to be specifically overexpressed in the frontal cortices of DLB patients when compared with controls and AD patients. These findings suggest a specific role of APP isoforms containing Kunitz protease inhibitor in DLB pathogenesis."
+    ],
+    "long_answer": "alpha-synuclein",
+    "final_decision": "yes",
+    "pubid": "800"
+  },
+  {
+    "task_id": "bioasq-3180",
+    "question": "Which drug should be used as an antidote in benzodiazepine overdose?",
+    "context_passages": [
+      "Flumazenil: a benzodiazepine antagonist. The mechanism of action, pharmacokinetics, and use of flumazenil in benzodiazepine overdose, as well as in the management of other disease states, are reviewed. Flumazenil interacts at the central benzodiazepine receptor to antagonize or reverse the behavioral, neurologic, and electrophysiologic effects of benzodiazepine agonists and inverse agonists. Flumazenil has been studied for a variety of indications, including as an antidote to benzodiazepine overdose and for awakening of comatose patients, reversal of sedation after surgery and in critically ill patients, and management of hepatic encephalopathy. It improves the level of consciousness in patients with benzodiazepine overdose; however, resedation may occur within one to two hours after administration, so repeated doses or a continuous infusion may be required to maintain therapeutic efficacy. It appears to be effective in reversing sedation induced by midazolam or diazepam, and case reports suggest that it is useful in awakening comatose patients, although its clinical utility is questionable. Flumazenil has proved useful in reversing conscious sedation in critically ill patients, although response may be dose dependent. Animal models indicate that flumazenil is of some benefit in hepatic encephalopathy, but until well-designed clinical trials are conducted, hepatic encephalopathy must be considered an investigational indication for flumazenil. Adverse reactions include CNS manifestations, resedation, cardiovascular effects, seizures, and alterations in intracranial pressure and cerebral perfusion pressure. Hepatic dysfunction results in a substantial change in the pharmacokinetic profile of flumazenil; therefore, dosage adjustment may be necessary in patients with hepatic dysfunction or in those receiving medications that alter flumazenil metabolism. Flumazenil has been shown to reverse sedation caused by intoxication with benzodiazepines alone or benzodiazepines in combination with other agents, but it should not be used when cyclic antidepressant intoxication is suspected. It may be beneficial after surgery when benzodiazepines have been used as part of anesthesia and after a diagnostic or surgical procedure when assessment of CNS function is necessary."
+    ],
+    "long_answer": "Flumazenil",
+    "final_decision": "yes",
+    "pubid": "3180"
+  },
+  {
+    "task_id": "bioasq-2701",
+    "question": "Which G protein is essential in the formation and function of lamellipodia?",
+    "context_passages": [
+      "G-protein-coupled receptor-2-interacting protein-1 is required for endothelial cell directional migration and tumor angiogenesis via cortactin-dependent lamellipodia formation. OBJECTIVE: Recent evidence suggests G-protein-coupled receptor-2-interacting protein-1 (GIT1) overexpression in several human metastatic tumors, including breast, lung, and prostate. Tumor metastasis is associated with an increase in angiogenesis. We have showed previously that GIT1 is required for postnatal angiogenesis during lung development. However, the functional role of GIT1 in pathological angiogenesis during tumor growth is unknown. APPROACH AND RESULTS: In the present study, we show inhibition of angiogenesis in matrigel implants as well as reduced tumor angiogenesis and melanoma tumor growth in GIT1-knockout mice. We demonstrate that this is a result of impaired directional migration of GIT1-depleted endothelial cells toward a vascular endothelial growth factor gradient. Cortactin-mediated lamellipodia formation in the leading edge is critical for directional migration. We observed a significant reduction in cortactin localization and lamellipodia formation in the leading edge of GIT1-depleted endothelial cells. We specifically identified that the Spa homology domain (aa 250-420) of GIT1 is required for GIT1-cortactin complex localization to the leading edge. The mechanisms involved extracellular signal-regulated kinases 1 and 2-mediated Cortactin-S405 phosphorylation and activation of Rac1/Cdc42. Finally, using gain of function studies, we show that a constitutively active mutant of cortactin restored directional migration of GIT1-depleted cells. CONCLUSION: Our data demonstrated that a GIT1-cortactin association through GIT1-Spa homology domain is required for cortactin localization to the leading edge and is essential for endothelial cell directional migration and tumor angiogenesis."
+    ],
+    "long_answer": "Rac1",
+    "final_decision": "yes",
+    "pubid": "2701"
+  },
+  {
+    "task_id": "bioasq-145",
+    "question": "What is the target of the drug Olaparib?",
+    "context_passages": [
+      "Poly(ADP-ribose) polymerase 1 (PARP1) overexpression in human breast cancer stem cells and resistance to olaparib. BACKGROUND: Breast cancer stem cells (BCSCs) have been recognized as playing a major role in various aspects of breast cancer biology. To identify specific biomarkers of BCSCs, we have performed comparative proteomics of BCSC-enriched and mature cancer cell populations from the human breast cancer cell line (BCL), BrCA-MZ-01. METHODS: ALDEFLUOR assay was used to sort BCSC-enriched (ALDH+) and mature cancer (ALDH-) cell populations. Total proteins were extracted from both fractions and subjected to 2-Dimensional Difference In-Gel Electrophoresis (2-D DIGE). Differentially-expressed spots were excised and proteins were gel-extracted, digested and identified using MALDI-TOF MS. RESULTS: 2-D DIGE identified poly(ADP-ribose) polymerase 1 (PARP1) as overexpressed in ALDH+ cells from BrCA-MZ-01. This observation was confirmed by western blot and extended to four additional human BCLs. ALDH+ cells from BRCA1-mutated HCC1937, which had the highest level of PARP1 overexpression, displayed resistance to olaparib, a specific PARP1 inhibitor. CONCLUSION: An unbiased proteomic approach identified PARP1 as upregulated in ALDH+, BCSC-enriched cells from various human BCLs, which may contribute to clinical resistance to PARP inhibitors."
+    ],
+    "long_answer": "PARP",
+    "final_decision": "yes",
+    "pubid": "145"
+  },
+  {
+    "task_id": "bioasq-0",
+    "question": "What is the inheritance pattern of Li\u2013Fraumeni syndrome?",
+    "context_passages": [
+      "Balanced t(11;15)(q23;q15) in a TP53+/+ breast cancer patient from a Li-Fraumeni syndrome family. Li-Fraumeni Syndrome (LFS) is characterized by early-onset carcinogenesis involving multiple tumor types and shows autosomal dominant inheritance. Approximately 70% of LFS cases are due to germline mutations in the TP53 gene on chromosome 17p13.1. Mutations have also been found in the CHEK2 gene on chromosome 22q11, and others have been mapped to chromosome 11q23. While characterizing an LFS family with a documented defect in TP53, we found one family member who developed bilateral breast cancer at age 37 yet was homozygous for wild-type TP53. Her mother also developed early-onset primary bilateral breast cancer, and a sister had unilateral breast cancer and a soft tissue sarcoma. Cytogenetic analysis using fluorescence in situ hybridization of a primary skin fibroblast cell line revealed that the patient had a novel balanced reciprocal translocation between the long arms of chromosomes 11 and 15: t(11;15)(q23;q15). This translocation was not present in a primary skin fibroblast cell line from a brother with neuroblastoma, who was heterozygous for the TP53 mutation. There was no evidence of acute lymphoblastic leukemia in either the patient or her mother, although a nephew did develop leukemia and died in childhood. These data may implicate the region at breakpoint 11q23 and/or 15q15 as playing a significant role in predisposition to breast cancer development."
+    ],
+    "long_answer": "autosomal dominant",
+    "final_decision": "yes",
+    "pubid": "0"
+  },
+  {
+    "task_id": "bioasq-883",
+    "question": "Which disease is associated with the ectopic expression of the protein encoded by the gene DUX4?",
+    "context_passages": [
+      "Telomere position effect regulates DUX4 in human facioscapulohumeral muscular dystrophy. Telomeres may regulate human disease by at least two independent mechanisms. First, replicative senescence occurs once short telomeres generate DNA-damage signals that produce a barrier to tumor progression. Second, telomere position effects (TPE) could change gene expression at intermediate telomere lengths in cultured human cells. Here we report that telomere length may contribute to the pathogenesis of facioscapulohumeral muscular dystrophy (FSHD). FSHD is a late-onset disease genetically residing only 25-60 kilobases from the end of chromosome 4q. We used a floxable telomerase to generate isogenic clones with different telomere lengths from affected patients and their unaffected siblings. DUX4, the primary candidate for FSHD pathogenesis, is upregulated over ten-fold in FSHD myoblasts and myotubes with short telomeres, and its expression is inversely proportional to telomere length. FSHD may be the first known human disease in which TPE contributes to age-related phenotype."
+    ],
+    "long_answer": "FSHD",
+    "final_decision": "yes",
+    "pubid": "883"
+  },
+  {
+    "task_id": "bioasq-3027",
+    "question": "Which is the methyl donor of histone methyltransferases?",
+    "context_passages": [
+      "Dominant alleles identify SET domain residues required for histone methyltransferase of Polycomb repressive complex 2. Polycomb gene silencing requires histone methyltransferase activity of Polycomb repressive complex 2 (PRC2), which methylates lysine 27 of histone H3. Information on how PRC2 works is limited by lack of structural data on the catalytic subunit, Enhancer of zeste (E(Z)), and the paucity of E(z) mutant alleles that alter its SET domain. Here we analyze missense alleles of Drosophila E(z), selected for molecular study because of their dominant genetic effects. Four missense alleles identify key E(Z) SET domain residues, and a fifth is located in the adjacent CXC domain. Analysis of mutant PRC2 complexes in vitro, and H3-K27 methylation in vivo, shows that each SET domain mutation disrupts PRC2 histone methyltransferase. Based on known SET domain structures, the mutations likely affect either the lysine-substrate binding pocket, the binding site for the adenosylmethionine methyl donor, or a critical tyrosine predicted to interact with the substrate lysine epsilon-amino group. In contrast, the CXC mutant retains catalytic activity, Lys-27 specificity, and trimethylation capacity. Deletion analysis also reveals a functional requirement for a conserved E(Z) domain N-terminal to CXC and SET. These results identify critical SET domain residues needed for PRC2 enzyme function, and they also emphasize functional inputs from outside the SET domain."
+    ],
+    "long_answer": "adenosylmethionine",
+    "final_decision": "yes",
+    "pubid": "3027"
+  },
+  {
+    "task_id": "bioasq-365",
+    "question": "Which SWI/SNF protein complex subunit has been demonstrated to interact with the FANCA gene product?",
+    "context_passages": [
+      "Fanconi anemia protein, FANCA, associates with BRG1, a component of the human SWI/SNF complex. Fanconi anemia (FA) is a genetic disorder that predisposes to hematopoietic failure, birth defects and cancer. We identified an interaction between the FA protein, FANCA and brm-related gene 1 (BRG1) product. BRG1 is a subunit of the SWI/SNF complex, which remodels chromatin structure through a DNA-dependent ATPase activity. FANCA was demonstrated to associate with the endogenous SWI/SNF complex. We also found a significant increase in the molecular chaperone, glucose-regulated protein 94 (GRP94) among BRG1-associated factors isolated from a FANCA-mutant cell line, which was not seen in either a normal control cell line or the mutant line complemented by wild-type FANCA. Despite this specific difference, FANCA did not appear to be absolutely required for in vitro chromatin remodeling. Finally, we demonstrated co-localization in the nucleus between transfected FANCA and BRG1. The physiological action of FANCA on the SWI/SNF complex remains to be clarified, but our work suggests that FANCA may recruit the SWI/SNF complex to target genes, thereby enabling coupled nuclear functions such as transcription and DNA repair."
+    ],
+    "long_answer": "BRG1",
+    "final_decision": "yes",
+    "pubid": "365"
+  },
+  {
+    "task_id": "bioasq-334",
+    "question": "Which molecule is targeted by a monoclonal antibody Secukinumab?",
+    "context_passages": [
+      "Secukinumab in the treatment of noninfectious uveitis: results of three randomized, controlled clinical trials. PURPOSE: To determine the efficacy and safety of different doses of secukinumab, a fully human monoclonal antibody for targeted interleukin-17A blockade, in patients with noninfectious uveitis. DESIGN: Three multicenter, randomized, double-masked, placebo-controlled, dose-ranging phase III studies: SHIELD, INSURE, and ENDURE. PARTICIPANTS: A total of 118 patients with Beh\u00e7et's uveitis (SHIELD study); 31 patients with active, noninfectious, non-Beh\u00e7et's uveitis (INSURE study); and 125 patients with quiescent, noninfectious, non-Beh\u00e7et's uveitis (ENDURE study) were enrolled. METHODS: After an initial subcutaneous (s.c.) loading phase in each treatment arm, patients received s.c. maintenance therapy with secukinumab 300 mg every 2 weeks (q2w), secukinumab 300 mg monthly (q4w), or placebo in the SHIELD study; secukinumab 300 mg q2w, secukinumab 300 mg q4w, secukinumab 150 mg q4w, or placebo in the INSURE study; or secukinumab 300 mg q2w, secukinumab 300 mg q4w, secukinumab 150 mg q4w, or placebo in the ENDURE study. MAIN OUTCOME MEASURES: Reduction of uveitis recurrence or vitreous haze score during withdrawal of concomitant immunosuppressive medication (ISM). Other end points included best-corrected visual acuity, ISM use (expressed as a standardized ISM score), and safety outcomes. RESULTS: After completion or early termination of each trial, there were no statistically significant differences in uveitis recurrence between the secukinumab treatment groups and placebo groups in any study. Secukinumab was associated with a significant reduction in mean total post-baseline ISM score (P = 0.019; 300 mg q4w vs. placebo) in the SHIELD study. Likewise, secukinumab was associated with a greater median reduction in ISM score versus placebo in the INSURE study, although no statistical analysis of the difference was conducted because of the small sample size. Overall, there was no loss in visual acuity reported in any treatment group during follow-up in all 3 studies. According to descriptive safety statistics, the frequencies of ocular and nonocular adverse events seemed to be slightly higher among secukinumab groups versus placebo across the 3 studies. CONCLUSIONS: The primary efficacy end points of the 3 studies were not met. The secondary efficacy data from these studies suggest a beneficial effect of secukinumab in reducing the use of concomitant ISM."
+    ],
+    "long_answer": "interleukin-17A",
+    "final_decision": "yes",
+    "pubid": "334"
+  },
+  {
+    "task_id": "bioasq-2541",
+    "question": "What tyrosine kinase, involved in a Philadelphia- chromosome positive chronic myelogenous leukemia, is the target of Imatinib (Gleevec)?",
+    "context_passages": [
+      "Regulation of hTERT by BCR-ABL at multiple levels in K562 cells. BACKGROUND: The cytogenetic characteristic of Chronic Myeloid Leukemia (CML) is the formation of the Philadelphia chromosome gene product, BCR-ABL. Given that BCR-ABL is the specific target of Gleevec in CML treatment, we investigated the regulation of the catalytic component of telomerase, hTERT, by BCR-ABL at multiple levels in K562 cells. METHODS: Molecular techniques such as over expression, knockdown, real-time PCR, immunoprecipitation, western blotting, reporter assay, confocal microscopy, telomerase assays and microarray were used to suggest that hTERT expression and activity is modulated by BCR-ABL at multiple levels. RESULTS: Our results suggest that BCR-ABL plays an important role in regulating hTERT in K562 (BCR-ABL positive human leukemia) cells. When Gleevec inhibited the tyrosine kinase activity of BCR-ABL, phosphorylation of hTERT was downregulated, therefore suggesting a positive correlation between BCR-ABL and hTERT. Gleevec treatment inhibited hTERT at mRNA level and significantly reduced telomerase activity (TA) in K562 cells, but not in HL60 or Jurkat cells (BCR-ABL negative cells). We also demonstrated that the transcription factor STAT5a plays a critical role in hTERT gene regulation in K562 cells. Knockdown of STAT5a, but not STAT5b, resulted in a marked downregulation of hTERT mRNA level, TA and hTERT protein level in K562 cells. Furthermore, translocation of hTERT from nucleoli to nucleoplasm was observed in K562 cells induced by Gleevec. CONCLUSIONS: Our data reveal that BCR-ABL can regulate TA at multiple levels, including transcription, post-translational level, and proper localization. Thus, suppression of cell growth and induction of apoptosis by Gleevec treatment may be partially due to TA inhibition. Additionally, we have identified STAT5a as critical mediator of the hTERT gene expression in BCR-ABL positive CML cells, suggesting that targeting STAT5a may be a promising therapeutic strategy for BCR-ABL positive CML patients."
+    ],
+    "long_answer": "BCR-ABL",
+    "final_decision": "yes",
+    "pubid": "2541"
+  },
+  {
+    "task_id": "bioasq-927",
+    "question": "What is the typical rash associated with gluten ?",
+    "context_passages": [
+      "[Clinical guidelines for the diagnosis and treatment of dermatitis herpetiformis]. Dermatitis herpetiformis is an autoimmune blistering disease that appears as a cutaneous manifestation of gluten intolerance. It is one of a group of disorders that have gluten sensitivity in common, including celiac disease and gluten ataxia. Patients with dermatitis herpetiformis present with a pruritic papulovesicular rash on extensor surfaces and on the buttocks. Immunological studies demonstrate the presence of specific immunoglobulin (Ig) A anti-endomysial and anti-transglutaminase antibodies. The finding of granular deposits of IgA along the dermal-epidermal junction is pathognomonic of dermatitis herpetiformis. Treatment of dermatitis herpetiformis is based on a life-long, strict gluten-free diet, which improves all clinical aspects of gluten sensitivity, and dapsone, a drug that is only effective for the skin manifestations."
+    ],
+    "long_answer": "Dermatitis herpetiformis",
+    "final_decision": "yes",
+    "pubid": "927"
+  },
+  {
+    "task_id": "bioasq-723",
+    "question": "What is the main component of the Lewy bodies?",
+    "context_passages": [
+      "Latest concept of Lewy body disease. We proposed the term 'Lewy body disease' (LBD) in 1980. Subsequently, we classified LBD into three types according to the distribution pattern of Lewy bodies: a brainstem type, a transitional type and a diffuse type. Later, we added the cerebral type. As we have proposed since 1980, LBD has recently been used as a generic term, including Parkinson's disease, Parkinson's disease with dementia and dementia with Lewy bodies. LBD has neuropathological characteristics whereby numerous Lewy bodies are present in the central and sympathetic nervous systems, and it is a type of alpha-synucleinopathy because the main component of Lewy body is alpha-synuclein. In this paper we explain the most recent concept of LBD from the historical viewpoint."
+    ],
+    "long_answer": "alpha-synuclein",
+    "final_decision": "yes",
+    "pubid": "723"
+  }
+]
