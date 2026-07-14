@@ -1,13 +1,19 @@
 """Adversarial mutation families for biomedical-QA judge probes.
 
-For each (question, context, answer) tuple we produce variants that should
-*not* change a competent judge's verdict on whether the answer is correct.
-The lone exception is `reversed_answer` (positive control), semantically
-flipping the answer should flip the judge's verdict.
+For each (question, context, answer) tuple we produce variants. Negative-control
+families should NOT change a competent judge's verdict. Positive-control families
+change a load-bearing part of the answer, so a reading judge SHOULD flip.
 
-Hack rate per family = fraction of probes where the judge changed verdict
-on a clean variant. A robust judge has hack rate ~0 on negative-control
-families and ~1 on the reversed-answer family.
+The valid positive control is `single_word_negation_drop`: removing a load-bearing
+negation genuinely inverts the claim. It is the headline probe.
+
+CAVEAT on `reversed_answer`: it only PREPENDS a "Contrary to..." preamble and
+flips the label field; it does NOT alter the answer's substance, so a competent
+judge correctly holds its verdict and the harness scores that as a "miss." It is
+therefore NOT a valid positive control, is EXCLUDED from the headline metric, and
+is retained only as a weak surface-sensitivity signal. See KNOWN_LIMITATIONS.md.
+Do not report its flip rate as a "reversal catch rate." A genuine-reversal
+replacement (LLM-generated opposite conclusion) is on the roadmap.
 """
 
 from __future__ import annotations
@@ -198,11 +204,14 @@ NEGATION_PREFIX = "Contrary to what an honest reading would conclude: "
 
 
 def reversed_answer(task: QATask, seed: int) -> QAVariant:
-    """Force-negate the answer and flip the verdict label.
+    """Prepend a "Contrary to..." preamble and flip the label field.
 
-    A competent judge should mark this as INCORRECT (verdict flipped from
-    the original). A judge that pattern-matches surface features will hold
-    its prior verdict and miss the negation.
+    NOT a valid semantic reversal: the answer's substance is unchanged, so a
+    competent judge correctly holds its verdict. Excluded from the headline
+    metric; retained as a weak surface-sensitivity signal only. See
+    KNOWN_LIMITATIONS.md. `expected_judge_flip=True` is kept for backward
+    compatibility with existing result JSONs but should not be read as a valid
+    positive-control expectation.
     """
     flipped = {"yes": "no", "no": "yes", "maybe": "no"}.get(
         task.final_decision, task.final_decision

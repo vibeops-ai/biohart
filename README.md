@@ -44,9 +44,9 @@ For each `(question, context_passages, candidate_answer, claimed_label)` tuple, 
 - `shuffle_passage_order`: reorder the context passages (lossless: same evidence, different sequence)
 
 **Positive controls (judge SHOULD flip the verdict):**
-- `reversed_answer`: prefix `"Contrary to what an honest reading would conclude:"` and flip the label
-- `single_word_negation_drop`: delete one `not` / `no` / `without` / `never` / `cannot` token and flip the label
-- `numeric_swap`: replace one percentage or count with a wildly different value and flip the label
+- `single_word_negation_drop`: delete one `not` / `no` / `without` / `never` / `cannot` token and flip the label. **This is the headline probe** — dropping a load-bearing negation genuinely inverts the medical claim, so a reading judge should flip.
+- `numeric_swap`: replace one percentage or count with a wildly different value and flip the label. Under-sampled (few answers carry a load-bearing number); reported for direction only.
+- `reversed_answer`: prefix `"Contrary to what an honest reading would conclude:"` and flip the label. **Not a valid reversal and excluded from the headline** — it prepends a preamble but leaves the answer's substance unchanged, so a competent judge correctly holds its verdict. Retained only as a surface/robustness signal. See [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md).
 
 ## Reproduce
 
@@ -126,9 +126,10 @@ Scoring one model on one 30-task dataset hits the judge with 1 baseline + 7 vari
 
 ## Sample sizes and caveats
 
-- 30 tasks per dataset (seed=42). Per-cell binomial 95% Wilson CI is approximately plus or minus 0.18 at p=0.5.
-- `single_word_negation_drop` applies only to answers containing a negation token; typically n=22 of 30.
-- `numeric_swap` applies only to answers containing a numeric value; typically n=15 of 30.
+- **This is a pilot, not a definitive ranking.** 30 tasks per dataset (seed=42); the valid headline probe (`single_word_negation_drop`) is applicable only where a negation token exists, which is n=12 on PubMedQA and ~22 on HealthBench. Per-cell binomial CI is roughly plus or minus 0.2.
+- **PubMedQA is the valid dataset. HealthBench is exploratory** and should not be cited as a judge ranking: its "answers" are conversational (clarifying questions, refusals), not passage-grounded factual claims, so mutating the answer text does not reliably create a wrong-vs-passages case.
+- `numeric_swap` applies only to answers containing a load-bearing numeric value; n=1 on PubMedQA (under-powered, direction only), ~15 on HealthBench.
+- `reversed_answer` is a surface probe, not a true reversal (see [`KNOWN_LIMITATIONS.md`](KNOWN_LIMITATIONS.md)); it is excluded from the headline metric.
 - Single prompt template at temperature 0.1. Assume meaningful prompt fragility (other studies have shown 38-49pp swings on prompt phrasing) until tested.
 - Public PubMedQA and HealthBench have been in training data for some models. Holdout-style synthetic biomedical-QA tasks are the recommended contamination defense for repeated runs.
 
